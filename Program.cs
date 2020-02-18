@@ -1,6 +1,5 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-
 
 namespace AllZombiesApp
 {
@@ -15,7 +14,7 @@ namespace AllZombiesApp
             CarculateAverage();
             Console.ReadLine();
         }
-
+        
         private static void ZombieWalk()
         {
             for (int x = 1; x < 11; x++)
